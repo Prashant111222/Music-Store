@@ -1,0 +1,54 @@
+<!ELEMENT store (detail,albums)>
+<!ELEMENT detail (name,address,phoneNo+,faxNo*,logo)>
+<!ATTLIST detail url CDATA #REQUIRED>
+<!ATTLIST detail registrationNo ID #REQUIRED>
+
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT address (country,city,street,zip?)>
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT zip (#PCDATA)>
+<!ELEMENT phoneNo (#PCDATA)>
+<!ELEMENT faxNo (#PCDATA)>
+<!ELEMENT logo EMPTY>
+<!ELEMENT albums (album+)>
+
+<!ELEMENT album (title,artist,songs,releasedYear,producers,format,value,description)>
+<!ATTLIST album albumID ID #REQUIRED>
+<!ATTLIST album label CDATA #REQUIRED>
+
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT artist (#PCDATA)>
+<!ELEMENT songs (song+)>
+
+<!ELEMENT song (title,singers,writers,directors?)>
+<!ATTLIST song isrc ID #REQUIRED>
+<!ATTLIST song length CDATA #REQUIRED>
+<!ATTLIST song genre CDATA #REQUIRED>
+
+<!ELEMENT singers (singer+)>
+<!ATTLIST singers singerType (solo|duet|band|chrous) "solo">
+
+<!ELEMENT singer (firstName,lastName)>
+<!ELEMENT firstName (#PCDATA)>
+<!ELEMENT lastName (#PCDATA)>
+
+<!ELEMENT writers (writer+)>
+<!ELEMENT writer (firstName,lastName)>
+
+<!ELEMENT directors (director+)>
+<!ELEMENT director (firstName,lastName)>
+
+<!ELEMENT releasedYear (#PCDATA)>
+<!ELEMENT producers (producer+)>
+<!ELEMENT producer (title?,firstName,lastName)>
+<!ATTLIST producer producerType (individual|band|organization) #IMPLIED>
+
+<!ELEMENT format (#PCDATA)>
+<!ELEMENT value (price,discount?)>
+<!ELEMENT price (#PCDATA)>
+<!ATTLIST price currency CDATA #FIXED "$">
+
+<!ELEMENT discount (#PCDATA)>
+<!ELEMENT description (#PCDATA)>

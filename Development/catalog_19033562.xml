@@ -1,0 +1,886 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE store SYSTEM "./catalog_19033562.dtd"> -->
+<?xml-stylesheet type="text/css" href="catalog_19033562.css"?>
+
+<store
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="./catalog_19033562.xsd"
+>
+    <detail url="www.musicorchestra.com" registrationNo="PAN-213-342-887">
+        <name>Music Orchestra</name>
+        <address>
+            <country>Nepal</country>
+            <city>Kathmandu</city>
+            <street>Durbar Marga</street>
+        </address>
+        <phoneNo>9824332116</phoneNo>
+        <phoneNo>9862338229</phoneNo>
+        <faxNo>+97715216505</faxNo>
+        <logo/>
+    </detail>
+    
+    <albums>
+        <album albumID="ALB-2100-1789-101" label="Republic, XO">
+            <title>After Hours</title>
+            <artist>The Weeknd</artist>
+            <songs>
+                <song isrc="US-UG1-20-00650" length="4:52" genre="R&amp;B Soul">
+                    <title>Alone Again</title>
+                    <singers singerType="solo">
+                        <singer>
+                            <firstName>Abel</firstName>
+                            <lastName>Tesfaye</lastName>
+                        </singer>
+                    </singers>
+                    <writers>
+                        <writer>
+                            <firstName>Abel</firstName>
+                            <lastName>Tesfaye</lastName>
+                        </writer>
+                        <writer>
+                            <firstName>Jason</firstName>
+                            <lastName>Quenneville</lastName>
+                        </writer>
+                        <writer>
+                            <firstName>Carlo</firstName>
+                            <lastName>Montagnese</lastName>
+                        </writer>
+                    </writers>
+                </song>
+
+                <song isrc="US-UMV-19-02062" length="3:21" genre="Trap">
+                    <title>Heartless</title>
+                    <singers singerType="solo">
+                        <singer>
+                            <firstName>Abel</firstName>
+                            <lastName>Tesfaye</lastName>
+                        </singer>
+                    </singers>
+                    <writers>
+                        <writer>
+                            <firstName>Abel</firstName>
+                            <lastName>Tesfaye</lastName>
+                        </writer>
+                        <writer>
+                            <firstName>Wayne</firstName>
+                            <lastName>Montagnese</lastName>
+                        </writer>
+                        <writer>
+                            <firstName>Andre</firstName>
+                            <lastName>Proctor</lastName>
+                        </writer>
+                    </writers>
+                    <directors>
+                        <director>
+                            <firstName>Anton</firstName>
+                            <lastName>Tammi</lastName>
+                        </director>
+                    </directors>
+                </song>
+
+                <song isrc="US-UMV-19-02060" length="3:21" genre="Synthwave">
+                    <title>Blinding Lights</title>
+                    <singers singerType="solo">
+                        <singer>
+                            <firstName>Abel</firstName>
+                            <lastName>Tesfaye</lastName>
+                        </singer>
+                    </singers>
+                    <writers>
+                        <writer>
+                            <firstName>Abel</firstName>
+                            <lastName>Tesfaye</lastName>
+                        </writer>
+                        <writer>
+                            <firstName>Max</firstName>
+                            <lastName>Martin</lastName>
+                        </writer>
+                        <writer>
+                            <firstName>Oscar</firstName>
+                            <lastName>Holter</lastName>
+                        </writer>
+                    </writers>
+                    <directors>
+                        <director>
+                            <firstName>Anton</firstName>
+                            <lastName>Tammi</lastName>
+                        </director>
+                    </directors>
+                </song>
+
+                <song isrc="US-UG1-20-00658" length="3:35" genre="R&amp;B Soul">
+                    <title>Save Your Tears</title>
+                    <singers singerType="solo">
+                        <singer>
+                            <firstName>Abel</firstName>
+                            <lastName>Tesfaye</lastName>
+                        </singer>
+                    </singers>
+                    <writers>
+                        <writer>
+                            <firstName>Abel</firstName>
+                            <lastName>Tesfaye</lastName>
+                        </writer>
+                        <writer>
+                            <firstName>Ahmad</firstName>
+                            <lastName>Blashe</lastName>
+                        </writer>
+                        <writer>
+                            <firstName>Oscar</firstName>
+                            <lastName>Holter</lastName>
+                        </writer>
+                    </writers>
+                    <directors>
+                        <director>
+                            <firstName>R.J.</firstName>
+                            <lastName>Sanchez</lastName>
+                        </director>
+                    </directors>
+                </song>
+
+                <song isrc="US-UG1-20-00586" length="6:01" genre="Electro House">
+                    <title>After Hours</title>
+                    <singers singerType="solo">
+                        <singer>
+                            <firstName>Abel</firstName>
+                            <lastName>Tesfaye</lastName>
+                        </singer>
+                    </singers>
+                    <writers>
+                        <writer>
+                            <firstName>Abel</firstName>
+                            <lastName>Tesfaye</lastName>
+                        </writer>
+                        <writer>
+                            <firstName>Ahmad</firstName>
+                            <lastName>Blashe</lastName>
+                        </writer>
+                        <writer>
+                            <firstName>Mario</firstName>
+                            <lastName>Winans</lastName>
+                        </writer>
+                    </writers>
+                    <directors>
+                        <director>
+                            <firstName>Anton</firstName>
+                            <lastName>Tammi</lastName>
+                        </director>
+                    </directors>
+                </song>
+
+                <song isrc="US-UMV-20-00585" length="3:35" genre="R&amp;B Soul">
+                    <title>In Your Eyes</title>
+                    <singers singerType="solo">
+                        <singer>
+                            <firstName>Abel</firstName>
+                            <lastName>Tesfaye</lastName>
+                        </singer>
+                    </singers>
+                    <writers>
+                        <writer>
+                            <firstName>Abel</firstName>
+                            <lastName>Tesfaye</lastName>
+                        </writer>
+                        <writer>
+                            <firstName>Ahmad</firstName>
+                            <lastName>Blashe</lastName>
+                        </writer>
+                        <writer>
+                            <firstName>Max</firstName>
+                            <lastName>Martin</lastName>
+                        </writer>
+                    </writers>
+                    <directors>
+                        <director>
+                            <firstName>Anton</firstName>
+                            <lastName>Tammi</lastName>
+                        </director>
+                    </directors>
+                </song>
+
+                <song isrc="US-UG1-20-00660" length="3:12" genre="R&amp;B Soul">
+                    <title>Until I Bleed Out</title>
+                    <singers singerType="solo">
+                        <singer>
+                            <firstName>Abel</firstName>
+                            <lastName>Tesfaye</lastName>
+                        </singer>
+                    </singers>
+                    <writers>
+                        <writer>
+                            <firstName>Abel</firstName>
+                            <lastName>Tesfaye</lastName>
+                        </writer>
+                        <writer>
+                            <firstName>Wayne</firstName>
+                            <lastName>Montagnese</lastName>
+                        </writer>
+                        <writer>
+                            <firstName>Mejdi</firstName>
+                            <lastName>Rhars</lastName>
+                        </writer>
+                    </writers>
+                    <directors>
+                        <director>
+                            <firstName>Anton</firstName>
+                            <lastName>Tammi</lastName>
+                        </director>
+                    </directors>
+                </song>
+            </songs>
+            <releasedYear>2020</releasedYear>
+            <producers>
+                <producer producerType="individual">
+                    <firstName>Jason</firstName>
+                    <lastName>Quenneville</lastName>
+                </producer>
+                <producer producerType="individual">
+                    <firstName>Kevin</firstName>
+                    <lastName>Parker</lastName>
+                </producer>
+                <producer producerType="individual">
+                    <firstName>Max</firstName>
+                    <lastName>Martin</lastName>
+                </producer>
+            </producers>
+            <format>MP3</format>
+            <value>
+                <price currency="$">270</price>
+                <discount>12</discount>
+            </value>
+            <description>
+                <![CDATA[ After Hours is the fourth studio album by Canadian singer the Weeknd, released on March 20, 2020,
+                 by Republic Records. Thematically, After Hours explores promiscuity, overindulgence, and self-loathing.
+                 Prior to the album's release, the Weeknd confirmed that After Hours would face stylistic differences to its 
+                 predecessor, Starboy (2016). Music journalists have noted the album as an artistic reinvention for the Weeknd,
+                  with the introduction of new wave and dream pop influences.]]>
+            </description>
+        </album>
+
+        <album albumID="ALB-2199-7811-110" label="EMI, Elektra">
+            <title>A Night at the Opera</title>
+            <artist>Queen</artist>
+            <songs>
+                <song isrc="GB-UM7-10-29604" length="5:55" genre="Classic Rock, Hard Rock">
+                    <title>Bohemian Rhapsody</title>
+                    <singers singerType="band">
+                        <singer>
+                            <firstName>Freddie</firstName>
+                            <lastName>Mercury</lastName>
+                        </singer>
+                        <singer>
+                            <firstName>Brian</firstName>
+                            <lastName>May</lastName>
+                        </singer>
+                    </singers>
+                    <writers>
+                        <writer>
+                            <firstName>Freddie</firstName>
+                            <lastName>Mercury</lastName>
+                        </writer>
+                    </writers>
+                    <directors>
+                        <director>
+                            <firstName>Dexter</firstName>
+                            <lastName>Fletcher</lastName>
+                        </director>
+                        <director>
+                            <firstName>Bryan</firstName>
+                            <lastName>Singer</lastName>
+                        </director>
+                    </directors>
+                </song>
+
+                <song isrc="GB-UM7-10-29618" length="3:05" genre="Rock">
+                    <title>I'm in Love with My Car</title>
+                    <singers singerType="band">
+                        <singer>
+                            <firstName>Roger</firstName>
+                            <lastName>Taylor</lastName>
+                        </singer>
+                    </singers>
+                    <writers>
+                        <writer>
+                            <firstName>Roger</firstName>
+                            <lastName>Taylor</lastName>
+                        </writer>
+                    </writers>
+                    <directors>
+                        <director>
+                            <firstName>Michele</firstName>
+                            <lastName>Mellara</lastName>
+                        </director>
+                        <director>
+                            <firstName>Alessandro</firstName>
+                            <lastName>Rossi</lastName>
+                        </director>
+                    </directors>
+                </song>
+
+                <song isrc="GB-UM8-10-21208" length="3:43" genre="Hard Rock, Rock">
+                    <title>Death on Two Legs</title>
+                    <singers singerType="band">
+                        <singer>
+                            <firstName>Freddie</firstName>
+                            <lastName>Mercury</lastName>
+                        </singer>
+                    </singers>
+                    <writers>
+                        <writer>
+                            <firstName>Freddie</firstName>
+                            <lastName>Mercury</lastName>
+                        </writer>
+                    </writers>
+                </song>
+
+                <song isrc="US-UAN-14-00054" length="3:38" genre="Classic Rock, Rock">
+                    <title>Love of My Life</title>
+                    <singers singerType="band">
+                        <singer>
+                            <firstName>Freddie</firstName>
+                            <lastName>Mercury</lastName>
+                        </singer>
+                    </singers>
+                    <writers>
+                        <writer>
+                            <firstName>Freddie</firstName>
+                            <lastName>Mercury</lastName>
+                        </writer>
+                    </writers>
+                    <directors>
+                        <director>
+                            <firstName>Denis</firstName>
+                            <lastName>deVallance</lastName>
+                        </director>
+                    </directors>
+                </song>
+
+                <song isrc="US-UAN-14-00514" length="2:50" genre="Rock, Pop">
+                    <title>You're My Best Friend</title>
+                    <singers singerType="band">
+                        <singer>
+                            <firstName>Freddie</firstName>
+                            <lastName>Mercury</lastName>
+                        </singer>
+                    </singers>
+                    <writers>
+                        <writer>
+                            <firstName>John</firstName>
+                            <lastName>Deacon</lastName>
+                        </writer>
+                    </writers>
+                    <directors>
+                        <director>
+                            <firstName>Bruce</firstName>
+                            <lastName>Gowers</lastName>
+                        </director>
+                    </directors>
+                </song>
+
+                <song isrc="GB-BPP-15-60601" length="4:08" genre="Rock, Pop">
+                    <title>Under Pressure</title>
+                    <singers singerType="band">
+                        <singer>
+                            <firstName>Freddie</firstName>
+                            <lastName>Mercury</lastName>
+                        </singer>
+                    </singers>
+                    <writers>
+                        <writer>
+                            <firstName>Roger</firstName>
+                            <lastName>Taylor</lastName>
+                        </writer>
+                        <writer>
+                            <firstName>Freddie</firstName>
+                            <lastName>Mercury</lastName>
+                        </writer>
+                        <writer>
+                            <firstName>Brian</firstName>
+                            <lastName>May</lastName>
+                        </writer>
+                        <writer>
+                            <firstName>John</firstName>
+                            <lastName>Deacon</lastName>
+                        </writer>
+                    </writers>
+                    <directors>
+                        <director>
+                            <firstName>David</firstName>
+                            <lastName>Mallet</lastName>
+                        </director>
+                    </directors>
+                </song>
+
+                <song isrc="GB-UM7-10-29613" length="4:56" genre="Rock, Gospel">
+                    <title>Somebody to Love</title>
+                    <singers singerType="band">
+                        <singer>
+                            <firstName>Freddie</firstName>
+                            <lastName>Mercury</lastName>
+                        </singer>
+                    </singers>
+                    <writers>
+                        <writer>
+                            <firstName>Freddie</firstName>
+                            <lastName>Mercury</lastName>
+                        </writer>
+                    </writers>
+                    <directors>
+                        <director>
+                            <firstName>Bruce</firstName>
+                            <lastName>Gowers</lastName>
+                        </director>
+                    </directors>
+                </song>
+
+                <song isrc="GB-UM7-10-29623" length="5:48" genre="Rock, Synth-pop">
+                    <title>Radio Ga Ga</title>
+                    <singers singerType="band">
+                        <singer>
+                            <firstName>Freddie</firstName>
+                            <lastName>Mercury</lastName>
+                        </singer>
+                    </singers>
+                    <writers>
+                        <writer>
+                            <firstName>Roger</firstName>
+                            <lastName>Taylor</lastName>
+                        </writer>
+                    </writers>
+                    <directors>
+                        <director>
+                            <firstName>David</firstName>
+                            <lastName>Mallet</lastName>
+                        </director>
+                    </directors>
+                </song>
+            </songs>
+            <releasedYear>1975</releasedYear>
+            <producers>
+                <producer producerType="individual">
+                    <firstName>R. Thomas</firstName>
+                    <lastName>Baker</lastName>
+                </producer>
+                <producer producerType="band">
+                    <title>Queen</title>
+                    <firstName>Freddie</firstName>
+                    <lastName>Mercury</lastName>
+                </producer>
+            </producers>
+            <format>Compact Cassette</format>
+            <value>
+                <price currency="$">350</price>
+            </value>
+            <description>
+                <![CDATA[ A Night at the Opera is the fourth studio album by the British rock band Queen, released on 
+                21 November 1975 by EMI Records. Produced by Roy Thomas Baker and Queen, it was reportedly the most expensive 
+                album ever recorded at the time of its release. The album's title is taken from the Marx Brothers film of the 
+                same name.]]>
+            </description>
+        </album>
+
+        <album albumID="ALB-2199-7811-005" label="Asylum, Atlantic">
+            <title>÷ [Divide]</title>
+            <artist>Ed Sheeran</artist>
+            <songs>
+                <song isrc="GB-AHS-17-00020" length="3:47" genre="Pop">
+                    <title>Eraser</title>
+                    <singers singerType="solo">
+                        <singer>
+                            <firstName>Ed</firstName>
+                            <lastName>Sheeran</lastName>
+                        </singer>
+                    </singers>
+                    <writers>
+                        <writer>
+                            <firstName>Ed</firstName>
+                            <lastName>Sheeran</lastName>
+                        </writer>
+                        <writer>
+                            <firstName>Johnny</firstName>
+                            <lastName>McDavid</lastName>
+                        </writer>
+                    </writers>
+                    <directors>
+                        <director>
+                            <firstName>Theo</firstName>
+                            <lastName>Williams</lastName>
+                        </director>
+                    </directors>
+                </song>
+
+                <song isrc="GB-AHS-16-00462" length="4:21" genre="Pop, Folk">
+                    <title>Castle on the Hill</title>
+                    <singers singerType="solo">
+                        <singer>
+                            <firstName>Ed</firstName>
+                            <lastName>Sheeran</lastName>
+                        </singer>
+                    </singers>
+                    <writers>
+                        <writer>
+                            <firstName>Ed</firstName>
+                            <lastName>Sheeran</lastName>
+                        </writer>
+                        <writer>
+                            <firstName>Benjamin</firstName>
+                            <lastName>Levin</lastName>
+                        </writer>
+                    </writers>
+                    <directors>
+                        <director>
+                            <firstName>George</firstName>
+                            <lastName>Belfield</lastName>
+                        </director>
+                    </directors>
+                </song>
+
+                <song isrc="GB-AHS-16-00765" length="3:58" genre="Pop, Memphis Soul">
+                    <title>Dive</title>
+                    <singers singerType="solo">
+                        <singer>
+                            <firstName>Ed</firstName>
+                            <lastName>Sheeran</lastName>
+                        </singer>
+                    </singers>
+                    <writers>
+                        <writer>
+                            <firstName>Ed</firstName>
+                            <lastName>Sheeran</lastName>
+                        </writer>
+                        <writer>
+                            <firstName>Benjamin</firstName>
+                            <lastName>Levin</lastName>
+                        </writer>
+                        <writer>
+                            <firstName>Julia</firstName>
+                            <lastName>Michaels</lastName>
+                        </writer>
+                    </writers>
+                    <directors>
+                        <director>
+                            <firstName>Murray</firstName>
+                            <lastName>Cummings</lastName>
+                        </director>
+                    </directors>
+                </song>
+
+                <song isrc="QM-VRR-17-00011" length="3:53" genre="Pop, Dancehall">
+                    <title>Shape of You</title>
+                    <singers singerType="solo">
+                        <singer>
+                            <firstName>Ed</firstName>
+                            <lastName>Sheeran</lastName>
+                        </singer>
+                    </singers>
+                    <writers>
+                        <writer>
+                            <firstName>Ed</firstName>
+                            <lastName>Sheeran</lastName>
+                        </writer>
+                        <writer>
+                            <firstName>Johnny</firstName>
+                            <lastName>MacDavid</lastName>
+                        </writer>
+                        <writer>
+                            <firstName>Steve</firstName>
+                            <lastName>Mac</lastName>
+                        </writer>
+                        <writer>
+                            <firstName>Kevin</firstName>
+                            <lastName>Briggs</lastName>
+                        </writer>
+                    </writers>
+                    <directors>
+                        <director>
+                            <firstName>Jason</firstName>
+                            <lastName>Koenig</lastName>
+                        </director>
+                    </directors>
+                </song>
+
+                <song isrc="GB-YUE-17-00340" length="4:23" genre="Pop, Folk">
+                    <title>Perfect</title>
+                    <singers singerType="solo">
+                        <singer>
+                            <firstName>Ed</firstName>
+                            <lastName>Sheeran</lastName>
+                        </singer>
+                    </singers>
+                    <writers>
+                        <writer>
+                            <firstName>Ed</firstName>
+                            <lastName>Sheeran</lastName>
+                        </writer>
+                    </writers>
+                    <directors>
+                        <director>
+                            <firstName>Jason</firstName>
+                            <lastName>Koenig</lastName>
+                        </director>
+                    </directors>
+                </song>
+
+                <song isrc="GB-YUE-17-00285" length="2:50" genre="Pop, Hip Hop, Irish Folk">
+                    <title>Galway Girl</title>
+                    <singers singerType="solo">
+                        <singer>
+                            <firstName>Ed</firstName>
+                            <lastName>Sheeran</lastName>
+                        </singer>
+                    </singers>
+                    <writers>
+                        <writer>
+                            <firstName>Ed</firstName>
+                            <lastName>Sheeran</lastName>
+                        </writer>
+                        <writer>
+                            <firstName>Foy</firstName>
+                            <lastName>Vance</lastName>
+                        </writer>
+                        <writer>
+                            <firstName>Niamh</firstName>
+                            <lastName>Dunne</lastName>
+                        </writer>
+                    </writers>
+                    <directors>
+                        <director>
+                            <firstName>Jason</firstName>
+                            <lastName>Koenig</lastName>
+                        </director>
+                    </directors>
+                </song>
+
+                <song isrc="GB-AHS-17-00009" length="3:27" genre="Pop">
+                    <title>Happier</title>
+                    <singers singerType="solo">
+                        <singer>
+                            <firstName>Ed</firstName>
+                            <lastName>Sheeran</lastName>
+                        </singer>
+                    </singers>
+                    <writers>
+                        <writer>
+                            <firstName>Ed</firstName>
+                            <lastName>Sheeran</lastName>
+                        </writer>
+                        <writer>
+                            <firstName>Ryan</firstName>
+                            <lastName>Tedder</lastName>
+                        </writer>
+                    </writers>
+                    <directors>
+                        <director>
+                            <firstName>Emil</firstName>
+                            <lastName>Nava</lastName>
+                        </director>
+                    </directors>
+                </song>
+
+                <song isrc="GB-AHS-17-00010" length="3:09" genre="Pop, R&amp;B">
+                    <title>New Man</title>
+                    <singers singerType="solo">
+                        <singer>
+                            <firstName>Ed</firstName>
+                            <lastName>Sheeran</lastName>
+                        </singer>
+                    </singers>
+                    <writers>
+                        <writer>
+                            <firstName>Ed</firstName>
+                            <lastName>Sheeran</lastName>
+                        </writer>
+                        <writer>
+                            <firstName>Jessie</firstName>
+                            <lastName>Ware</lastName>
+                        </writer>
+                        <writer>
+                            <firstName>Ammar</firstName>
+                            <lastName>Malik</lastName>
+                        </writer>
+                    </writers>
+                </song>
+            </songs>
+            <releasedYear>2017</releasedYear>
+            <producers>
+                <producer producerType="individual">
+                    <firstName>Benny</firstName>
+                    <lastName>Blanco</lastName>
+                </producer>
+                <producer>
+                    <firstName>Ed</firstName>
+                    <lastName>Sheeran</lastName>
+                </producer>
+                <producer producerType="individual">
+                    <firstName>Steve</firstName>
+                    <lastName>Mac</lastName>
+                </producer>
+                <producer producerType="individual">
+                    <firstName>Johnny</firstName>
+                    <lastName>McDavid</lastName>
+                </producer>
+            </producers>
+            <format>8-Track Tape</format>
+            <value>
+                <price currency="$">290</price>
+                <discount>7</discount>
+            </value>
+            <description>
+                <![CDATA[÷ (pronounced "Divide") is the third studio album by English singer-songwriter Ed Sheeran. It was released
+                on 3 March 2017 through Asylum Records and Atlantic Records. "Castle on the Hill" and "Shape of You" were released as
+                the album's lead singles on 6 January 2017. The album won the Grammy Award for Best Pop Vocal Album at the 60th 
+                Annual Grammy Awards
+                ]]>
+            </description>
+        </album>
+
+        <album albumID="ALB-2199-7811-000" label="Columbia">
+            <title>Kind of Blue</title>
+            <artist>Miles Davis</artist>
+            <songs>
+                <song isrc="US-SM1-13-07284" length="9:22" genre="Modal Jazz">
+                    <title>So What</title>
+                    <singers singerType="solo">
+                        <singer>
+                            <firstName>Miles</firstName>
+                            <lastName>Davis</lastName>
+                        </singer>
+                    </singers>
+                    <writers>
+                        <writer>
+                            <firstName>Miles</firstName>
+                            <lastName>Davis</lastName>
+                        </writer>
+                    </writers>
+                </song>
+
+                <song isrc="US-SM1-59-00114" length="9:34" genre="Jazz, Be-Bop">
+                    <title>Freddie Freeloader</title>
+                    <singers singerType="solo">
+                        <singer>
+                            <firstName>Miles</firstName>
+                            <lastName>Davis</lastName>
+                        </singer>
+                    </singers>
+                    <writers>
+                        <writer>
+                            <firstName>Miles</firstName>
+                            <lastName>Davis</lastName>
+                        </writer>
+                    </writers>
+                </song>
+
+                <song isrc="US-SM1-59-00115" length="5:27" genre="Jazz, Be-Bop">
+                    <title>Blue in Green</title>
+                    <singers singerType="solo">
+                        <singer>
+                            <firstName>Miles</firstName>
+                            <lastName>Davis</lastName>
+                        </singer>
+                    </singers>
+                    <writers>
+                        <writer>
+                            <firstName>Miles</firstName>
+                            <lastName>Davis</lastName>
+                        </writer>
+                        <writer>
+                            <firstName>Bill</firstName>
+                            <lastName>Evans</lastName>
+                        </writer>
+                    </writers>
+                </song>
+
+                <song isrc="US-SM1-59-00116" length="11:33" genre="Modal Jazz">
+                    <title>All Blues</title>
+                    <singers singerType="solo">
+                        <singer>
+                            <firstName>Miles</firstName>
+                            <lastName>Davis</lastName>
+                        </singer>
+                    </singers>
+                    <writers>
+                        <writer>
+                            <firstName>Miles</firstName>
+                            <lastName>Davis</lastName>
+                        </writer>
+                    </writers>
+                </song>
+
+                <song isrc="US-SM1-59-00117" length="9:26" genre="Jazz, Be-Bop">
+                    <title>Flamenco Sketches</title>
+                    <singers singerType="solo">
+                        <singer>
+                            <firstName>Miles</firstName>
+                            <lastName>Davis</lastName>
+                        </singer>
+                    </singers>
+                    <writers>
+                        <writer>
+                            <firstName>Miles</firstName>
+                            <lastName>Davis</lastName>
+                        </writer>
+                        <writer>
+                            <firstName>Bill</firstName>
+                            <lastName>Evans</lastName>
+                        </writer>
+                    </writers>
+                </song>
+
+                <song isrc="US-SM1-58-00963" length="11:49" genre="Jazz">
+                    <title>Love for Sale</title>
+                    <singers singerType="solo">
+                        <singer>
+                            <firstName>Miles</firstName>
+                            <lastName>Davis</lastName>
+                        </singer>
+                    </singers>
+                    <writers>
+                        <writer>
+                            <firstName>Cole</firstName>
+                            <lastName>Porter</lastName>
+                        </writer>
+                    </writers>
+                </song>
+
+                <song isrc="US-PR3-61-09948" length="9:50" genre="Jazz">
+                    <title>On Green Dolphin Street</title>
+                    <singers singerType="solo">
+                        <singer>
+                            <firstName>Miles</firstName>
+                            <lastName>Davis</lastName>
+                        </singer>
+                    </singers>
+                    <writers>
+                        <writer>
+                            <firstName>Bronislaw</firstName>
+                            <lastName>Kaper</lastName>
+                        </writer>
+                        <writer>
+                            <firstName>Ned</firstName>
+                            <lastName>Washington</lastName>
+                        </writer>
+                    </writers>
+                </song>
+            </songs>
+            <releasedYear>1959</releasedYear>
+            <producers>
+                <producer>
+                    <firstName>Irving</firstName>
+                    <lastName>Townsend</lastName>
+                </producer>
+            </producers>
+            <format>Vinyl Records</format>
+            <value>
+                <price currency="$">540</price>
+            </value>
+            <description>
+                <![CDATA[Kind of Blue is a studio album by American jazz trumpeter-composer Miles Davis. It was recorded on March 2 and
+                April 22, 1959, at Columbia's 30th Street Studio in New York City, and released on August 17 of that year by Columbia 
+                Records. For the recording, Davis led a sextet featuring saxophonists John Coltrane and Julian "Cannonball" Adderley, pianist
+                Bill Evans, bassist Paul Chambers, and drummer Jimmy Cobb, with new band pianist Wynton Kelly appearing on one track in place 
+                of Evans.
+                ]]>
+            </description>
+        </album>
+    </albums>
+</store>

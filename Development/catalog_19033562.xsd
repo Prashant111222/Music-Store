@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="store" type="storeType"/>
+
+    <xs:complexType name="storeType">
+        <xs:sequence>
+            <xs:group ref="storeTypeGrp"></xs:group>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:group name="storeTypeGrp">
+        <xs:sequence>
+            <xs:element name="detail" type="detailType"></xs:element>
+            <xs:element name="albums" type="albumsType"></xs:element>
+        </xs:sequence>
+    </xs:group>
+
+    <xs:complexType name="detailType">
+        <xs:sequence>
+            <xs:group ref="detailTypeGrp"></xs:group>
+        </xs:sequence>
+        <xs:attributeGroup ref="attDetailType"></xs:attributeGroup>
+    </xs:complexType>
+
+    <xs:attributeGroup name="attDetailType">
+        <xs:attribute name="url" type="xs:anyURI" use="required"></xs:attribute>
+        <xs:attribute name="registrationNo" type="regNoType" use="required"></xs:attribute>
+    </xs:attributeGroup>
+
+    <xs:group name="detailTypeGrp">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string"></xs:element>
+            <xs:element name="address" type="addressType"></xs:element>
+            <xs:element name="phoneNo" type="phoneType" maxOccurs="5"></xs:element>
+            <xs:element name="faxNo" type="faxType" minOccurs="0" maxOccurs="3"></xs:element>
+            <xs:element name="logo" type="logoType"></xs:element>
+        </xs:sequence>
+    </xs:group>
+
+    <xs:complexType name="logoType"></xs:complexType>
+
+    <xs:simpleType name="phoneType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="((\+)?977)?(98)[0-9]{8}"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="faxType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="((\+)?977)[0-9]{8}"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="regNoType">
+        <xs:restriction base="xs:ID">
+            <xs:pattern value="(PAN)-[0-9]{3}[ \-]?[0-9]{3}[ \-]?[0-9]{3}"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="addressType">
+        <xs:sequence>
+            <xs:group ref="addressTypeGrp"></xs:group>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:group name="addressTypeGrp">
+        <xs:sequence>
+            <xs:element name="country" type="xs:string"></xs:element>
+            <xs:element name="city" type="xs:string"></xs:element>
+            <xs:element name="street" type="xs:string"></xs:element>
+            <xs:element name="zip" type="zipType" minOccurs="0"></xs:element>
+        </xs:sequence>
+    </xs:group>
+
+    <xs:simpleType name="zipType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[0-9]{5}"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="albumsType">
+        <xs:sequence>
+            <xs:group ref="albumsTypeGrp"></xs:group>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:group name="albumsTypeGrp">
+        <xs:sequence>
+            <xs:element name="album" maxOccurs="unbounded" type="albumType"></xs:element>
+        </xs:sequence>
+    </xs:group>
+
+    <xs:complexType name="albumType">
+        <xs:sequence>
+            <xs:group ref="albumTypeGrp"></xs:group>
+        </xs:sequence>
+        <xs:attributeGroup ref="attAlbumType"></xs:attributeGroup>
+    </xs:complexType>
+
+    <xs:attributeGroup name="attAlbumType">
+        <xs:attribute name="albumID" type="albumIDType" use="required"></xs:attribute>
+        <xs:attribute name="label" type="xs:string" use="required"></xs:attribute>
+    </xs:attributeGroup>
+
+    <xs:group name="albumTypeGrp">
+        <xs:sequence>
+            <xs:element name="title" type="xs:string"></xs:element>
+            <xs:element name="artist" type="xs:string"></xs:element>
+            <xs:element name="songs" type="songsType"></xs:element>
+            <xs:element name="releasedYear" type="xs:gYear"></xs:element>
+            <xs:element name="producers" type="producersType"></xs:element>
+            <xs:element name="format" type="formatType"></xs:element>
+            <xs:element name="value" type="valueType"></xs:element>
+            <xs:element name="description" type="xs:string"></xs:element>
+        </xs:sequence>
+    </xs:group>
+
+    <xs:complexType name="valueType">
+        <xs:sequence>
+            <xs:group ref="valueTypeGrp"></xs:group>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:group name="valueTypeGrp">
+        <xs:sequence>
+            <xs:element name="price" type="priceType"></xs:element>
+            <xs:element name="discount" type="discountType" minOccurs="0"></xs:element>
+        </xs:sequence>
+    </xs:group>
+
+    <xs:simpleType name="discountType">
+        <xs:restriction base="xs:positiveInteger">
+            <xs:minInclusive value="1"></xs:minInclusive>
+            <xs:maxInclusive value="100"></xs:maxInclusive>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="priceType">
+        <xs:simpleContent>
+            <xs:extension base="validatePrice">
+                <xs:attributeGroup ref="attPriceType"></xs:attributeGroup>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:attributeGroup name="attPriceType">
+        <xs:attribute name="currency" type="xs:string" fixed="$" use="required"></xs:attribute>
+    </xs:attributeGroup>
+
+    <xs:simpleType name="validatePrice">
+        <xs:restriction base="xs:decimal">
+            <xs:minInclusive value="1"></xs:minInclusive>
+            <xs:maxInclusive value="10000"></xs:maxInclusive>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="formatType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="MP3"></xs:enumeration>
+            <xs:enumeration value="Vinyl Records"></xs:enumeration>
+            <xs:enumeration value="8-Track Tape"></xs:enumeration>
+            <xs:enumeration value="Compact Cassette"></xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="producersType">
+        <xs:sequence>
+            <xs:group ref="producersTypeGrp"></xs:group>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:group name="producersTypeGrp">
+        <xs:sequence>
+            <xs:element name="producer" type="producerType" maxOccurs="unbounded"></xs:element>
+        </xs:sequence>
+    </xs:group>
+
+    <xs:complexType name="producerType">
+        <xs:sequence>
+            <xs:group ref="producerTypeGrp"></xs:group>
+            <xs:group ref="nameGrp"></xs:group>
+        </xs:sequence>
+        <xs:attributeGroup ref="attProducerType"></xs:attributeGroup>
+    </xs:complexType>
+
+    <xs:attributeGroup name="attProducerType">
+        <xs:attribute name="producerType" type="producerTypeAtt" use="optional"></xs:attribute>
+    </xs:attributeGroup>
+
+    <xs:group name="producerTypeGrp">
+        <xs:sequence>
+            <xs:element name="title" type="xs:string" minOccurs="0" maxOccurs="1"></xs:element>
+        </xs:sequence>
+    </xs:group>
+
+    <xs:simpleType name="producerTypeAtt">
+        <xs:restriction base="xs:string">
+           <xs:enumeration value="individual"></xs:enumeration>
+           <xs:enumeration value="band"></xs:enumeration>
+           <xs:enumeration value="organization"></xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="songsType">
+        <xs:sequence>
+            <xs:group ref="songsTypeGrp"></xs:group>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:group name="songsTypeGrp">
+        <xs:sequence>
+            <xs:element name="song" type="songType" maxOccurs="unbounded"></xs:element>
+        </xs:sequence>
+    </xs:group>
+
+    <xs:complexType name="songType">
+        <xs:sequence>
+            <xs:group ref="songTypeGrp"></xs:group>
+        </xs:sequence>
+        <xs:attributeGroup ref="attSongType"></xs:attributeGroup>
+    </xs:complexType>
+
+    <xs:attributeGroup name="attSongType">
+        <xs:attribute name="isrc" type="isrcType" use="required"></xs:attribute>
+        <xs:attribute name="length" type="lengthType" use="required"></xs:attribute>
+        <xs:attribute name="genre" type="xs:string" use="required"></xs:attribute>
+    </xs:attributeGroup>
+
+    <xs:group name="songTypeGrp">
+        <xs:sequence>
+            <xs:element name="title" type="xs:string"></xs:element>
+            <xs:element name="singers" type="singersType"></xs:element>
+            <xs:element name="writers" type="writersType"></xs:element>
+            <xs:element name="directors" type="directorsType" minOccurs="0"></xs:element>
+        </xs:sequence>
+    </xs:group>
+
+    <xs:simpleType name="lengthType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="(([0-5]{1})?[0-9]{1}):(([0-5]{1})?[0-9]{1})"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="directorsType">
+        <xs:sequence>
+            <xs:group ref="directorsTypeGrp"></xs:group>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:group name="directorsTypeGrp">
+        <xs:sequence>
+            <xs:element name="director" type="directorType" maxOccurs="unbounded"></xs:element>
+        </xs:sequence>
+    </xs:group>
+
+    <xs:complexType name="directorType">
+        <xs:sequence>
+            <xs:group ref="nameGrp"></xs:group>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="writersType">
+        <xs:sequence>
+            <xs:group ref="writersTypeGrp"></xs:group>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:group name="writersTypeGrp">
+        <xs:sequence>
+            <xs:element name="writer" type="writerType" maxOccurs="unbounded"></xs:element>
+        </xs:sequence>
+    </xs:group>
+
+    <xs:complexType name="writerType">
+        <xs:sequence>
+            <xs:group ref="nameGrp"></xs:group>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="singersType">
+        <xs:sequence>
+            <xs:group ref="singersTypeGrp"></xs:group>
+        </xs:sequence>
+        <xs:attributeGroup ref="attSingersType"></xs:attributeGroup>
+    </xs:complexType>
+
+    <xs:attributeGroup name="attSingersType">
+        <xs:attribute name="singerType" type="singerTypeInfo" use="required"></xs:attribute>
+    </xs:attributeGroup>
+
+    <xs:group name="singersTypeGrp">
+        <xs:sequence>
+            <xs:element name="singer" maxOccurs="unbounded" type="singerTyp"></xs:element>
+        </xs:sequence>
+    </xs:group>
+
+    <xs:complexType name="singerTyp">
+        <xs:sequence>
+            <xs:group ref="nameGrp"></xs:group>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:simpleType name="singerTypeInfo">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="solo|duet|band|chorus"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:group name="nameGrp">
+        <xs:sequence>
+            <xs:element name="firstName" type="xs:string"></xs:element>
+            <xs:element name="lastName" type="xs:string"></xs:element>
+        </xs:sequence>
+    </xs:group>
+
+    <xs:simpleType name="isrcType">
+        <xs:restriction base="xs:ID">
+            <xs:pattern value="(US|QM|CP|DG|ZZ|GB)-[A-Z|0-9]{3}-[0-9]{2}-[0-9]{5}"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="albumIDType">
+        <xs:restriction base="xs:ID">
+            <xs:pattern value="ALB-[0-9]{4}-[0-9]{4}-[0-9]{3}"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>
